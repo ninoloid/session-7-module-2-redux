@@ -4,6 +4,7 @@ const initialState = {
   cartItems: [],
 };
 
+// MANUAL REDUCER SETUP
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
     case reducerKeys.cart.ADD_TO_CART:
